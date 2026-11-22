@@ -474,6 +474,128 @@
       ],
       "ast": [
         "aggregate/ast/f2951854442e78cb8f6d2256b7c1d83bd2b77d0b/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/f2951854442e78cb8f6d2256b7c1d83bd2b77d0b.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anyio",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio",
+          "githubCommit": "0ddd02d6a44a68cfdf0210783c2a2a1b02334d9a",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/agronholm/anyio",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/anyio/_core/_synchronization.py"
+        },
+        {
+          "packageName": "httpcore2",
+          "ecosystem": "PYPI",
+          "version": "2.16.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "httpx2",
+          "githubCommit": "781ea16caf2a5ade6e18b7504b3fe62fe902c4fa",
+          "githubTag": "v2.16.2",
+          "githubUrl": "https://github.com/pydantic/httpx2",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/httpcore2/_backends/base.py"
+        },
+        {
+          "packageName": "h11",
+          "ecosystem": "PYPI",
+          "version": "0.16.0",
+          "githubOrg": "python-hyper",
+          "githubRepo": "h11",
+          "githubCommit": "1c5b07581f058886c8bdd87adababd7d959dc7ca",
+          "githubTag": "v0.16.0",
+          "githubUrl": "https://github.com/python-hyper/h11",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/h11/_events.py"
+        },
+        {
+          "packageName": "idna",
+          "ecosystem": "PYPI",
+          "version": "3.20.0",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/idna/core.py"
+        },
+        {
+          "packageName": "aiohttp",
+          "ecosystem": "PYPI",
+          "version": "3.14.5",
+          "githubOrg": "aio-libs",
+          "githubRepo": "aiohttp",
+          "githubCommit": "f17c631bddcfd4ec712342db28f1d3381a3fec71",
+          "githubTag": "v3.14.5",
+          "githubUrl": "https://github.com/aio-libs/aiohttp",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/aiohttp/client_reqrep.py"
+        },
+        {
+          "packageName": "truststore",
+          "ecosystem": "PYPI",
+          "version": "0.10.5",
+          "githubOrg": "sethmlarson",
+          "githubRepo": "truststore",
+          "githubCommit": "ddb380b919e4589c188e2fbc4f615fed49a37626",
+          "githubTag": "v0.10.5",
+          "githubUrl": "https://github.com/sethmlarson/truststore",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/truststore/_api.py"
+        },
+        {
+          "packageName": "rich",
+          "ecosystem": "PYPI",
+          "version": "15.0.0",
+          "githubOrg": "Textualize",
+          "githubRepo": "rich",
+          "githubCommit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+          "githubTag": "v15.0.0",
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/rich/console.py"
+        },
+        {
+          "packageName": "click",
+          "ecosystem": "PYPI",
+          "version": "8.5.1",
+          "githubOrg": "pallets",
+          "githubRepo": "click",
+          "githubCommit": "cf19179e8e2fd54c601378cec9e0d21bb12b6fb1",
+          "githubTag": "8.5.1",
+          "githubUrl": "https://github.com/pallets/click",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/click/termui.py"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.21.0",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubCommit": "a43b45dcf081b6010c6ab4428f149f7f6d2499c4",
+          "githubTag": "2.21.0",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pygments/lexers/__init__.py"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "lsp",
+          "raw_name": "typing_extensions.py",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/typing_extensions.py"
+        }
       ]
     }
   ],
